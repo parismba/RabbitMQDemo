@@ -5,6 +5,7 @@ BEGIN
 		parameter		VARCHAR(50) NOT NULL,
 		minval			NUMERIC(10,7) NOT NULL,
 		maxval			NUMERIC(10,7) NOT NULL,
-		ideal			NUMERIC(10,7) NOT NULL
+		ideal			NUMERIC(10,7) NOT NULL,
+		PRIMARY KEY (paramid)
 	 )
 END

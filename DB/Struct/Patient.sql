@@ -4,6 +4,7 @@ BEGIN
 		patientid	INTEGER IDENTITY NOT NULL,
 		name		VARCHAR(50) NOT NULL,
 		age			INTEGER NOT NULL,
-		address		VARCHAR(100)
+		address		VARCHAR(100),
+		PRIMARY KEY(patientid)
 	 )
 END
